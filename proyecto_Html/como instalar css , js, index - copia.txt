@@ -1,0 +1,23 @@
+siempre comenzar un nuevo proyecto copeando los siguientes archivos.
+
+
+-ojo: copear los archivos en el siguiente orden para que cada archivo apunte al lugar correspondiente.
+-la carpeta css, js , se deben copiar y pegar en el directirio principal del proyecto django.,
+
+-dentro de el archivo index.html se debe escribir el siguiente codigo para que cargue los archivos de bootstrap
+      {% load bootstrap4 %}
+      {% bootstrap_css %}
+      {% bootstrap_javascript %}
+
+-ademas se debe ir ala carpeta settings y dentro de las aplicaciones se debe registrar bootstrap4 como se ve acontinuacion. 
+      INSTALLED_APPS=[
+             'bootstrap4'
+      ]
+OJO: para que el editor pycharm autocomplete los comandos de bootstrap se debe instalar el plugin desde el cmd con el siguiente comando.
+         pip install django-bootstrap4 
+     debes de estar dentro del ambiente de trabajo donde se desea instalar bootstrap.
+ 
+
+
+
+
